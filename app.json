@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "inclusive-pay",
+    "slug": "snack-e7e2686c-d5dd-4d71-abf7-4b4f18cd65cc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "to perform digital transactions with ease, security, and independence. Unlike conventional UPI apps, Inclusive Pay ensures equal access for visually impaired, hearing-impaired, and motor-impaired users by integrating inclusive technologies."
+  }
+}
