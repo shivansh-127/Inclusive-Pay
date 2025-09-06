@@ -1,11 +1,58 @@
-# Sample Snack app
+# Inclusive Pay
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+**Repository Link:** [https://github.com/shivansh-127/Inclusive-Pay](https://github.com/shivansh-127/Inclusive-Pay.git)
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Inclusive Pay is a mobile payment application specifically designed to solve the challenges that people with disabilities face while using standard UPI payment systems. The app provides a user-friendly and accessible interface, ensuring that everyone can perform digital transactions with confidence and ease. This project was developed as a solution to the hackathon topic: **"Problems faced by disabled people while using UPI payments"**.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Features
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+* **Designed for Accessibility:** The core of this app is its commitment to accessibility. It addresses common pain points in UPI payments for disabled individuals by providing tailored solutions.
+* **Screenshot Prevention:** For added security, the app prevents users from taking screenshots of sensitive information, protecting user data and financial details.
+* **QR Code Payments:** Effortlessly make and receive payments by scanning or generating QR codes.
+* **Specialized Accessibility Modes:** The application includes multiple accessibility modes to cater to a diverse range of user needs:
+    * **Dark Theme & High Contrast:** For users with visual sensitivity.
+    * **Large Text Mode:** Improves readability for users with low vision.
+    * **Simplified Mode:** A streamlined interface to reduce clutter and cognitive load, which can be particularly helpful for users with cognitive disabilities.
+* **Voice & Haptic Feedback:** The app provides audio and haptic feedback to guide users and confirm actions, ensuring a more intuitive experience for users who may be visually impaired or have motor disabilities.
+* **Secure Transactions:** Manages user balances and transaction history within a secure framework.
+* **Intuitive Navigation:** A clear and easy-to-use navigation structure with multiple screens and tabs.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Technologies Used
+
+* **React Native:** The core framework for building the cross-platform mobile application.
+* **Expo:** Used for building, running, and deploying the app with pre-built modules.
+* **@react-navigation:** For handling app navigation between screens.
+* **expo-barcode-scanner:** Enables the QR code scanning functionality.
+* **expo-speech:** For text-to-speech functionality and voice prompts.
+* **expo-haptics:** Provides haptic feedback for user interactions.
+* **react-native-qrcode-svg:** For generating QR codes within the app.
+
+## Installation & Setup
+
+To run this project locally, you need to have Node.js and the Expo CLI installed on your machine.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/shivansh-127/Inclusive-Pay.git](https://github.com/shivansh-127/Inclusive-Pay.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Inclusive-Pay
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Start the Expo development server:**
+    ```bash
+    expo start
+    ```
+5.  **Run on your device or simulator:** Scan the QR code with the Expo Go app on your phone, or choose to run on an iOS or Android simulator.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out via my GitHub profile or through a new issue on this repository.
